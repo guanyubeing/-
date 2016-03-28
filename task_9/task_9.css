@@ -1,0 +1,358 @@
+﻿*{
+	margin: 0px;
+}
+.head{
+	width: 100%;
+	height: 60px;
+	background-color: rgb(33,135,190);
+}
+.logoin{
+	float: right;
+	margin: 23px 100px 0 0;
+	
+}
+.srch{
+	height: 30px;
+	width: 350px;
+	background-color: #fff;
+	float: right;
+	margin: 15px 20px 0 0;
+	border-radius: 15px;
+	padding: 0px;
+}
+.logo{
+	float: left;
+	margin:12px 0 0 50px;
+}
+.logoin p{
+	font-size: 0.9em;
+	color: #fff;
+	font-family: 微软雅黑;
+	float: right;
+	margin: -2px 0 0 5px;
+}
+.srchimg{
+	float: left;
+	background-image: url(img/search.png);
+	height: 16px;
+	width: 16px;
+	margin: 7px 5px 0 10px;
+}
+.srch input{
+	border: none;
+	width: 258px;
+	height: 100%;
+	outline:thin;
+	padding: 0px;
+}
+.meue{
+	width: 250px;
+	height: 2000px;
+	background-color: rgb(45,45,60);
+	float: left;
+	
+}
+.pic{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 2px solid rgb(185,185,190);
+	float: left;
+	margin:20px 20px 0 50px;
+	
+}
+.pic1{
+	display: block;
+	background-color: rgb(185,185,190);
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin:5px 0 0 5px;
+}
+.idname{
+	font-family: 黑体;
+	color: #fff;
+	margin-top: 40px;
+	display: inline-block;
+}
+.col{
+	font-family: 黑体;
+	color:rgb(107,127,148);
+	margin-top: 40px;
+	float: left;
+	margin: 30px 30px 20px 50px;
+	clear: left;
+	border-right:  2px solid #fff;
+	padding-right: 30px;
+}
+.fans{
+	font-family: 黑体;
+	color: rgb(107,127,148);
+	margin-top: 30px;
+	margin-bottom: 20px;
+	float: left;
+}
+.fans:hover{
+	color: #fff;
+}
+.col:hover{
+	color: #fff;
+}
+.table{
+	clear: both;
+	line-height: 200%;
+	font-family: 黑体;
+	color:rgb(107,127,148);
+	width: 100%;
+	height: 160px;
+	background-color: rgb(56,62,78);
+	padding-top: 10px;
+	margin-top: 10px;
+	font-size: 0.8em;	
+}
+.mu1{
+	padding-left: 60px;
+}
+.pos{
+	list-style-image: url(img/ico-bchart.png);
+}
+.file1,.file3{
+	list-style-image: url(img/ico-file.png);
+}
+.file2{
+	list-style-image:url(img/ico-bfile.png);
+}
+.doc{
+	list-style-image:url(img/ico-doc.png);
+}
+.lin{
+	clear: both;
+	line-height: 400%;
+	font-family: 黑体;
+	color:rgb(107,127,148);
+	width: 190px;
+	font-size: 0.8em;
+	padding-left: 60px;
+}
+.pcol,.tuku,.jil{
+	list-style-image:url(img/ico-star.png);
+}
+.shar{
+	list-style-image:url(img/ico-share.png);
+}
+
+.inx{
+	list-style-image:url(img/ico-count.png);
+}
+.page{
+	width: 100%;
+	height:2000px;
+	background-color: rgb(236,236,236);
+	float: right;
+}
+.warp{
+	padding: 0 0 0 250px;
+}
+
+.head1{
+	width: 100%;
+	height: 40px;
+	background-color: #fff;
+	font: 0.8em "微软雅黑" ;
+	color: rgb(175,175,175);
+	word-spacing:1em;
+	
+}
+.head1 a{
+	text-decoration:none;
+	color: rgb(175,175,175);
+	padding:10px 10px 0 10px;
+	display: inline-block;
+	padding-left: 20px;
+}
+.head1 a:hover{
+	color: rgb(130,165,200);
+}
+.inq{
+	width: 90%;
+	height: 100px;
+	background-color: #fff;
+	margin: 20px 0 10px 5%;
+}
+.inq1{
+	padding: 20px 0 0 30px;
+	font: 0.8em "微软雅黑" ;
+	color: rgb(175,175,175);
+	float: left;
+}
+.inq1 select{
+	display: inline-block;
+	margin-left: 10px;
+	padding: 2px;
+}
+.inq2{
+	float: left;
+	padding: 20px 0 0 30px;
+	font: 0.8em "微软雅黑" ;
+	color: rgb(175,175,175);
+}
+.inq2 select{
+	display: inline-block;
+	margin-bottom: 5px;
+	width: 130px;
+	padding: 3px 2px;
+	margin-left: 10px;
+
+}
+.chan{
+	float: left;
+	margin-top: 30px;
+}
+.inq3{
+	float: left;
+	padding: 20px 0 0 30px;
+	font: 0.8em "微软雅黑" ;
+	color: rgb(175,175,175);
+}
+.inq3 select{
+	display: inline-block;
+	margin-bottom: 5px;
+	padding: 3px 2px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.inq3 input{
+	display: inline-block;
+	margin-bottom: 5px;
+	margin-left: 14px;
+	margin-right: 10px;
+}
+.change{
+	width: 137px;
+}
+.take,.num{
+	width: 80px;
+}
+.srch1{
+	background-color: rgb(57,137,192);
+	border-style: none;
+	color: #fff;
+	font-family: 微软雅黑;
+	width: 50px;
+	height: 25px;
+	border-radius: 3px;
+	cursor: pointer;
+	outline:none;
+	display: inline-block;
+	margin: 35px 0 0 20px;
+}
+.his{
+	width: 90%;
+	height: 70px;
+	margin: 20px 0 10px 5%;
+}
+.lebo{
+	width: 30px;
+	height: 70px;
+	background-color:#fff;
+	float: left;
+	margin-right: 5px;
+}
+.char{
+	width: 120px;
+	height: 70px;
+	background-color: #fff;
+	float: left;
+	margin: 0 5px 0 5px;
+	text-align: center;
+}
+.ribo{
+	width: 30px;
+	height: 70px;
+	background-color:#fff;
+	float: left;
+	margin: 0 5px 0 5px;
+}
+.hish{
+	width: 128px;
+	height: 70px;
+	background-color:#fff;
+	float: left;
+	margin: 0 0 0 5px;
+}
+.lebo img{
+	margin: 25px 0 0 10px;
+}
+.ribo img{
+	margin: 25px 0 0 10px;
+}
+.char p{
+	font: 0.8em "微软雅黑" ;
+	line-height: 220%;
+	padding-top: 5px;
+
+}
+.char1{
+	font-size: 1em;
+	color: rgb(169,169,169);
+	font-weight: bold;
+}
+.char2{
+	font-size: 1.4em;
+	color: rgb(235,120,60);
+	font-weight: bold;
+}
+.char:hover{
+	border-top: 4px solid rgb(67,135,200);
+}
+.hish img{
+	margin: 20px 10px 0 20px;
+	float: left;
+}
+.hish span{
+	font: 0.8em "微软雅黑" ;
+	margin-top:25px;
+	display:block;
+	
+}
+.stat{
+	width: 90%;
+	height: 114px;
+	margin: 30px 0 10px 5%;
+}
+.data1{
+	width: 23%;
+	height: 90px;
+	float: left;
+	background-color: #fff;
+	margin-right: 21px;
+	border-left: 4px solid red;
+}
+.data1-1{
+	width: 23%;
+	height: 90px;
+	float: left;
+	background-color: #fff;
+	margin: 0;
+	border-left: 4px solid red;
+}
+.stat p{
+	font: .9em 微软雅黑;
+	padding-bottom: 5px;
+}
+.data1 p,.data1-1 p{
+	font-size: 0.8em;
+	line-height: 200%;
+	margin: 20px 0 0 15px;
+	float: left;
+
+}
+.data1 p span,.data1-1 p span{
+	color: rgb(182,182,182);
+}
+.colo{
+	width: 50px;
+	height: 40px;
+	background-color: red;
+	float: right;
+}

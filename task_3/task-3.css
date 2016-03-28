@@ -1,0 +1,33 @@
+.page0{background-color: #eee;
+	   padding: 20px;
+	   border: 1px solid #999;
+  		margin: 20px;
+  	}
+		
+.page1{background-color: white;
+		border: 1px solid #999;
+		float: left;
+		
+		width: 200px;
+	
+		}	   
+.page2{border:1px solid #999;
+ 	   margin-left:220px;
+  		margin-right:140px;
+   		padding: 20px;
+   		background-color: white;
+		 }
+.page3{
+	   background-color: white;
+		float: right;
+		border: 1px solid #999;
+		width: 120px;
+		}
+.page3 img{width: 80px;
+			margin: 5px;
+			width: 90%;
+		}
+.page1 img{
+			padding: 20px 0 20px 20px
+			}
+.page1 p{float: right;padding: 10px 10px;}
